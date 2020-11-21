@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Adapter/Adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Builder/Builder.iml" filepath="$PROJECT_DIR$/Builder/Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mediator/Mediator.iml" filepath="$PROJECT_DIR$/Mediator/Mediator.iml" />
+    </modules>
+  </component>
+</project>
