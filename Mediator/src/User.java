@@ -10,24 +10,4 @@ public abstract class User {
     public abstract void send(String msg);
 
     public abstract void receive(String msg);
-
-    @Override
-    public int hashCode() {
-        return name.hashCode();
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (obj == null) {
-            return false;
-
-        }
-
-        if (this.getClass() != obj.getClass()) {
-            return false;
-        }
-
-        User user = (User) obj;
-        return name.equals(user.name);
-    }
 }

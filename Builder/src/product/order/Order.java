@@ -13,7 +13,6 @@ public class Order {
     private VegetableType vegetableType;
 
     public Order(OrderType orderType, BreadType breadType, SauceType sauceType, VegetableType vegetableType) {
-        super();
         this.orderType = orderType;
         this.breadType = breadType;
         this.sauceType = sauceType;
@@ -25,21 +24,4 @@ public class Order {
         return "Order [orderType=" + orderType + ", breadType=" + breadType + ", sauceType=" + sauceType
                 + ", vegetableType=" + vegetableType + "]";
     }
-
-    public OrderType getOrderType() {
-        return orderType;
-    }
-
-    public BreadType getBreadType() {
-        return breadType;
-    }
-
-    public SauceType getSauceType() {
-        return sauceType;
-    }
-
-    public VegetableType getVegetableType() {
-        return vegetableType;
-    }
-
 }
